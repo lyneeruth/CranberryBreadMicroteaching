@@ -13,10 +13,48 @@ h2 {
   color: rgb(153, 122, 117);
   text-align: center;
 }
-img{
-    display: block;
-    margin:0 auto;
-    max-width: 100%;
-    border-radius: 10px;
+
+img {
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  padding: 5px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--branding-color);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 100px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+}
+
+.logo {
+  max-width: 150px;
 }
