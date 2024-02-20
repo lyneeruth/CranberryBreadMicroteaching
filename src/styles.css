@@ -1,17 +1,27 @@
+:root {
+  --primary-color: #bf3d3d;
+  --secondary-color: #997a75;
+  --copytext-color: #504e5a;
+}
+
 p {
   font-family: "Poppins", sans-serif;
-  color: rgb(68, 66, 66);
+  color: var(--copytext-color);
+  font-size: medium;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: rgb(211, 113, 96);
+  color: var(--primary-color);
   text-align: center;
+  font-size: 48px;
 }
+
 h2 {
   font-family: "Playfair Display", serif;
-  color: rgb(153, 122, 117);
+  color: var(--secondary-color);
   text-align: center;
+  font-size: 36px;
 }
 
 img {
@@ -27,19 +37,26 @@ video {
   margin-right: auto;
 }
 
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--primary-color);
+  padding-right: 10px;
+}
+
 nav {
   padding: 5px 0;
 }
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #373442;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav a.active {
-  color: var(--branding-color);
+  color: var(--primary-color);
 }
 
 nav ul {
