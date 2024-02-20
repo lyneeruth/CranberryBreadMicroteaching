@@ -13,3 +13,10 @@ h2 {
   color: rgb(153, 122, 117);
   text-align: center;
 }
+img{
+    display: block;
+    margin:0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+}
