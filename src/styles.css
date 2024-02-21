@@ -92,13 +92,13 @@ nav li {
   margin-left: 20px;
 }
 
-.funfacts {
+/*.funfacts {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   padding: 1;
   border: 1px solid skyblue;
 }
+*/
 
 /*.contact-box {
   background-color: var(--secondary-color);

@@ -13,12 +13,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
     rel="stylesheet">
     <!---Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
@@ -40,7 +36,7 @@ If I don't do that then this div is unnecessary I think-->
 
 <h2>A baking tutorial & tribute </h2>
 <section>
-    <p>You're invited to learn how to bake a most sensational dessert! 
+    <p>You're invited to learn how to bake a sensational dessert! 
         My mom discovered this recipe in one of her favorite magazines ("Taste of Home") over 20 years ago.
         She made it for family, church events and special occasions and everyone that tried it was amazed at the 
         tantilizing tart and sweet and chewy combination. When my mom suddenly passed from cancer last year 
@@ -48,18 +44,74 @@ If I don't do that then this div is unnecessary I think-->
         So come along and take some notes and get ready to enjoy something specially delicous! 
     </p>
 </section>
-
+  <!--Old Flexbox All these images or vectors in the flexbox need to be the same size to eachother
 <section>
     <h3>1. Fun Facts</h3>
     <p>What do you know about cranberries?</p>
     <div class="funfacts">
-        <!--All these images or vectors in the flexbox need to be the same size to eachother-->
-<div><img src="media/DisplayPicture.jpg" alt="#"></div>
+        
+<div><img src="media/DisplayPicture.jpg" class="rounded" alt="#"></div>
 <div><img src="media/DisplayPicture.jpg" alt="#"></div>
 <div><img src="media/DisplayPicture.jpg" alt="#"></div>
 </div>
 </section>
-    
+-->
+
+<!--Bootstrap Question grid
+<section>
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+           <p class="border">Cranberry <mark>fact 1</mark></p>
+        </div>
+        <div class="col">
+            <img src="media/DisplayPicture.jpg" alt="#" class=rounded>
+        </div>
+        <div class="col">
+        <p>Cranberry fact 3</p>
+        </div>
+    </div>
+</div>
+</section>
+-->
+
+<!--Sample Slider-->
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="media/Fact1Question.jpeg" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="media/DisplayPicture.jpg" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="media/RecipeCard.jpeg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
 <section>
 <h3>2. Recipe</h3>
 <p>Grab a pen or take a screen shot - here are the basic ingredients and instructions!</p>
