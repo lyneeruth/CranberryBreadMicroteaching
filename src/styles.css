@@ -33,9 +33,18 @@ h3 {
   border: 1px solid skyblue;
 }
 
-img {
+.imgdecoration {
   display: block;
-  width: 50%;
+  width: 5%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid skyblue;
+}
+
+.imgregular {
+  display: block;
+  width: 75%;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -43,9 +52,7 @@ img {
 }
 
 ul {
-  background-color: rgb(203, 221, 215);
   border: 1px solid skyblue;
-  text-decoration: none;
 }
 
 video {
