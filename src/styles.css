@@ -3,7 +3,12 @@
   --secondary-color: #997a75;
   --copytext-color: #504e5a;
 }
-
+.experiment {
+  padding: 10px;
+  border-color: salmon;
+  background-color: silver;
+  margin: auto;
+}
 p {
   font-family: "Poppins", sans-serif;
   color: var(--copytext-color);
@@ -42,8 +47,7 @@ video {
   width: 90%;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0, auto;
 }
 
 .videocontainer {
@@ -94,4 +98,24 @@ nav li {
   background-color: var(--secondary-color);
   justify-content: space-between;
   margin: 0 auto;
+  padding: 1;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
