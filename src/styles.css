@@ -37,6 +37,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/*
 video {
   width: 90%;
   height: auto;
@@ -52,7 +53,20 @@ video {
   background-color: salmon;
   margin: 0 auto;
 }
+*/
 
+.videocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+  margin: 0 auto;
+  height: 350px;
+}
+
+video {
+  width: 75%;
+}
 .menu {
   display: flex;
   justify-content: flex-end;
