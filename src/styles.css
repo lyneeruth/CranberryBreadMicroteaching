@@ -3,16 +3,11 @@
   --secondary-color: #997a75;
   --copytext-color: #504e5a;
 }
-.experiment {
-  padding: 10px;
-  border-color: salmon;
-  background-color: silver;
-  margin: auto;
-}
 p {
   font-family: "Poppins", sans-serif;
   color: var(--copytext-color);
   font-size: medium;
+  border: 1px solid skyblue;
 }
 
 h1 {
@@ -20,6 +15,7 @@ h1 {
   color: var(--primary-color);
   text-align: center;
   font-size: 48px;
+  border: 1px solid skyblue;
 }
 
 h2 {
@@ -27,12 +23,14 @@ h2 {
   color: var(--secondary-color);
   text-align: center;
   font-size: 36px;
+  border: 1px solid skyblue;
 }
 
 h3 {
   font-family: "Poppins", sans-serif;
   color: var(--copytext-color);
   font-weight: bold;
+  border: 1px solid skyblue;
 }
 
 img {
@@ -58,11 +56,12 @@ video {
   margin: 0 auto;
 }
 
-.menu {
+.navmenu {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
   padding-right: 10px;
+  border: 1px solid skyblue;
 }
 
 nav {
@@ -95,13 +94,13 @@ nav li {
 
 .funfacts {
   display: flex;
-  background-color: var(--secondary-color);
   justify-content: space-between;
   margin: 0 auto;
   padding: 1;
+  border: 1px solid skyblue;
 }
 
-.contact-box {
+/*.contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
@@ -110,7 +109,7 @@ nav li {
 .contact-box p {
   margin: 0;
 }
-
+*/
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
