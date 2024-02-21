@@ -91,6 +91,9 @@ nav li {
   font-family: "Poppins", sans-serif;
   margin-left: 20px;
 }
+.container {
+  width: 300px;
+}
 
 /*.funfacts {
   display: flex;
