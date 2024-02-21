@@ -35,10 +35,17 @@ h3 {
 
 img {
   display: block;
-  width: 75%;
+  width: 50%;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid skyblue;
+}
+
+ul {
+  background-color: rgb(203, 221, 215);
+  border: 1px solid skyblue;
+  text-decoration: none;
 }
 
 video {
