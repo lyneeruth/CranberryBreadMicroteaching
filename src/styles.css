@@ -24,6 +24,12 @@ h2 {
   font-size: 36px;
 }
 
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: var(--copytext-color);
+  font-weight: bold;
+}
+
 img {
   display: block;
   width: 75%;
@@ -32,9 +38,19 @@ img {
   padding-bottom: 10px;
 }
 video {
+  width: 90%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.videocontainer {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  background-color: salmon;
+  margin: 0 auto;
 }
 
 .menu {
@@ -72,6 +88,8 @@ nav li {
   margin-left: 20px;
 }
 
-.logo {
-  max-width: 150px;
+.funfacts {
+  display: flex;
+  background-color: var(--secondary-color);
+  justify-content: space-between;
 }
