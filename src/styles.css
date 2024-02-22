@@ -59,7 +59,7 @@ video {
 .videocontainer {
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 600px;
   border: 1px solid skyblue;
   margin: 0 auto;
   padding-bottom: 20px;
