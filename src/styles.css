@@ -60,8 +60,9 @@ video {
   display: flex;
   justify-content: center;
   width: 500px;
-  background-color: salmon;
+  border: 1px solid skyblue;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .navmenu {
@@ -102,4 +103,13 @@ nav li {
 .container {
   width: 500px;
   padding-bottom: 25px;
+}
+
+.surveylink {
+  background-color: #e4d3d3;
+  color: var(--copytext-color);
+  padding: 10px 10px;
+  margin: 20px auto;
+  text-decoration: none;
+  border: 1px, solid, var(--copytext-color);
 }
