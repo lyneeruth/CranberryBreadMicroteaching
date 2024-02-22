@@ -113,9 +113,22 @@ nav li {
   padding-bottom: 25px;
 }
 
-.surveylink {
+.buttoncenter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.buttonlink {
+  display: inline-block;
   background-color: #e4d3d3;
   color: var(--copytext-color);
   padding: 10px 10px;
   text-decoration: none;
+  margin: 0, auto;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+}
+
+.buttonlink:hover {
+  background-color: var(--secondary-color);
 }
