@@ -47,7 +47,7 @@ h3 {
 
 .imgrecipe {
   display: block;
-  width: 85%;
+  width: 75%;
   margin: auto;
   padding: 20px;
   border: 1px solid skyblue;
@@ -109,7 +109,7 @@ nav li {
   margin-left: 20px;
 }
 .carousel-container {
-  width: 450px;
+  width: 425px;
   padding-bottom: 25px;
   margin: 0 auto;
 }
