@@ -108,9 +108,10 @@ nav li {
   font-family: "Poppins", sans-serif;
   margin-left: 20px;
 }
-.container {
-  width: 600px;
+.carousel-container {
+  width: 450px;
   padding-bottom: 25px;
+  margin: 0 auto;
 }
 
 .buttoncenter {
