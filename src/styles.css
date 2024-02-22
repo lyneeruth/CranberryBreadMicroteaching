@@ -9,6 +9,7 @@ p {
   font-size: medium;
   border: 1px solid skyblue;
   text-align: center;
+  padding: 5px 20px;
 }
 
 h1 {
@@ -31,15 +32,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: var(--copytext-color);
   font-weight: bold;
-  border: 1px solid skyblue;
-}
-
-.imgdecoration {
-  display: block;
-  width: 5%;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 28px;
   border: 1px solid skyblue;
 }
 
@@ -47,8 +40,7 @@ h3 {
   display: block;
   width: 90%;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
   border: 1px solid skyblue;
 }
 
@@ -75,7 +67,7 @@ video {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  padding-right: 10px;
+  padding-right: 20px;
   border: 1px solid skyblue;
 }
 
@@ -108,31 +100,5 @@ nav li {
 }
 .container {
   width: 500px;
-}
-
-/*.funfacts {
-  display: flex;
-  justify-content: space-between;
-  padding: 1;
-  border: 1px solid skyblue;
-}
-*/
-
-/*.contact-box {
-  background-color: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-.contact-box p {
-  margin: 0;
-}
-*/
-.btn-branding {
-  background-color: var(--branding-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+  padding-bottom: 25px;
 }
