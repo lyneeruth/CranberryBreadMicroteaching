@@ -109,7 +109,7 @@ nav li {
   margin-left: 20px;
 }
 .container {
-  width: 500px;
+  width: 600px;
   padding-bottom: 25px;
 }
 
@@ -117,7 +117,5 @@ nav li {
   background-color: #e4d3d3;
   color: var(--copytext-color);
   padding: 10px 10px;
-  margin: 20px auto;
   text-decoration: none;
-  border: 1px, solid, var(--copytext-color);
 }
