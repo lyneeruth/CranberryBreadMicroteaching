@@ -8,6 +8,7 @@ p {
   color: var(--copytext-color);
   font-size: medium;
   border: 1px solid skyblue;
+  text-align: center;
 }
 
 h1 {
